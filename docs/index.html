@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h2>動画ダウンロード</h2>
+
+  <input id="url" placeholder="動画URLを入力">
+
+  <button id="analyzeBtn" onclick="load()">解析</button>
+
+  <div id="loading" class="hidden">解析中...</div>
+
+  <div id="result" class="hidden">
+    <label>解像度を選択</label>
+    <select id="quality"></select>
+
+    <button onclick="download()">ダウンロード</button>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
