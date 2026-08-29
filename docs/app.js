@@ -1,4 +1,4 @@
-const API = "https://xhmd.onrender.com";
+const API = "https://xhmd2.onrender.com";
 
 let template = "";
 let selectedM3U8 = "";
